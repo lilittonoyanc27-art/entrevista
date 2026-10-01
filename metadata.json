@@ -1,0 +1,6 @@
+{
+  "name": "Aprende Español con Natalia Oreiro | Սովորիր իսպաներեն",
+  "description": "Sitio web interactivo para aprender español a través del armenio con la entrevista de Natalia Oreiro en Mar del Plata. / Ինտերակտիվ կրթական կայք իսպաներեն սովորելու համար հայերենով՝ Նատալիա Օրեյրոյի հարցազրույցի հիման վրա։",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

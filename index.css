@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-size: 17px;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', 'Noto Sans Armenian', system-ui, -apple-system, sans-serif;
+    color: #1a1617;
+    background-color: #fffdfa;
+  }
+}
+
+/* Custom 4-tone warm palette utilities */
+.bg-warm-gradient {
+  background: linear-gradient(135deg, #facc15 0%, #f97316 32%, #dc2626 68%, #670a20 100%);
+}
+
+.bg-burgundy-red {
+  background: linear-gradient(135deg, #670a20 0%, #b91c1c 50%, #ea580c 100%);
+}
+
+.bg-red-orange {
+  background: linear-gradient(135deg, #dc2626 0%, #ea580c 60%, #facc15 100%);
+}
+
+.text-warm-title {
+  background: linear-gradient(135deg, #670a20 0%, #dc2626 45%, #ea580c 85%, #d97706 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom scrollbars with warm yellow-orange-red-burgundy scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fef7ee;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #facc15, #f97316, #dc2626, #670a20);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #670a20;
+}
+
+
